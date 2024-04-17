@@ -1,3 +1,5 @@
+//paraphrase 'iitbhu'
+
 import Player from "./player.js";
 import InputHandler from "./input.js";
 import { Background } from "./background.js";
@@ -16,7 +18,7 @@ window.addEventListener("load", function () {
       this.height = height;
       this.speed = 0;
       this.maxSpeed = 6;
-      this.groundMargin = 80;
+      this.groundMargin = 80; 
       this.player = new Player(this);
       this.debug = false;
       this.input = new InputHandler(this);
